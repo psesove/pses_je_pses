@@ -1,0 +1,72 @@
+@media (prefers-color-scheme: dark) {
+    body{
+        background-color: black;
+    }
+    p{
+        color: white;
+        font-family: 'Comic Sans MS';
+    }
+    h1{
+        color: white;
+    }
+    .tc{
+      text-align: center;
+      background-color: gray;
+      color: black;
+      margin-top:10px;
+      margin-left: 40px;
+      margin-right: 40px;
+      margin-bottom: 10px;
+      animation-name: about;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+    }
+    h2{
+      color: white;
+    }
+    h5{
+      color: white;
+    }
+    .nadpis{
+        color: aqua; font-size: 30px; text-align: center; animation-name: nadpis; animation-duration: 4s; animation-iteration-count: infinite;
+    }
+    
+}
+@media (prefers-color-scheme: light) {
+    body{
+        background-color: white;
+    }
+    .tc{
+    text-align: center;
+    background-color: gray;
+    color: black;
+    margin-top:10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    animation-name: about;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    }
+    p{
+        font-family: 'Comic Sans MS';
+    }
+    .nadpis{
+        color: black; font-size: 30px; text-align: center; animation-name: nadpis_light; animation-duration: 4s; animation-iteration-count: infinite;
+    }
+}
+@keyframes about {
+0%{background-color:red}
+50%{background-color:pink}
+100%{background-color:orange}
+}
+@keyframes nadpis{
+0%{color: lime;}
+50%{color: aqua;}
+80%{color: white;}
+}
+@keyframes nadpis_light{
+    0%{color: lime;}
+    50%{color: aqua;}
+    80%{color: black;}
+    }
